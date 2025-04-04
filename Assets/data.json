@@ -1,0 +1,58 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "title": "Compras de Scrap",
+      "description": "Compramos scrap metálico y no metálico (tarimas, plásticos, etc.) con básculas digitales para precisión. Pagos inmediatos en efectivo. Más de 30 años de experiencia en el ramo."
+    },
+    {
+      "id": 2,
+      "title": "Compra de Chatarra",
+      "description": "Adquisición de chatarra industrial o doméstica. Recolectamos en tu empresa con contenedores especializados. Precios competitivos; pregúntanos por cotizaciones."
+    },
+    {
+      "id": 3,
+      "title": "Compra de Cartón",
+      "description": "Recolección de cartón para reciclaje en empresas o negocios. Ofrecemos servicio de contenedores y pagos en efectivo según volumen."
+    },
+    {
+      "id": 4,
+      "title": "Compra de PET",
+      "description": "Compramos botellas y residuos de PET. Contribuye al reciclaje y obtén ingresos adicionales. Servicio de recolección incluido."
+    },
+    {
+      "id": 5,
+      "title": "Instalación de remolques y contenedores",
+      "description": "Colocamos contenedores o remolques en tu negocio para facilitar la recolección de materiales reciclables (metales, cartón, PET, etc.). Solución práctica para empresas."
+    },
+    {
+      "id": 6,
+      "title": "Venta de Scrap",
+      "description": "Venta de scrap metálico y no metálico procesado. Materiales seleccionados para industrias. Calidad garantizada por nuestra experiencia."
+    },
+    {
+      "id": 7,
+      "title": "Venta de Chatarra",
+      "description": "Chatarra clasificada y preparada para fundición o reutilización. Ideal para empresas del sector acerero. Entregamos en tu ubicación."
+    },
+    {
+      "id": 8,
+      "title": "Venta de Cartón",
+      "description": "Cartón compactado y listo para reciclaje industrial. Volúmenes grandes disponibles. Pregunta por nuestros precios por tonelada."
+    },
+    {
+      "id": 9,
+      "title": "Venta de PET",
+      "description": "PET procesado y limpio para reciclaje. Cumple con estándares de calidad. Perfecto para fabricantes de plástico."
+    }
+  ],
+  "informacion_empresa": {
+    "nombre": "Comercializadora MT",
+    "telefono": "8110219038",
+    "contacto": "Compras Mario Torres",
+    "direccion": "Av. Jardines del Río 439, Col. Jardines del Río",
+    "especialidades": "Scrap, metales, tarimas, cartón, PET, archivo, chatarra",
+    "servicios_adicionales": "Recolección a empresas, instalación de contenedores, pagos en efectivo",
+    "experiencia": "Más de 30 años en el ramo acerero"
+  }
+}

@@ -28,7 +28,7 @@
           />
           <figcaption hidden="true">Comercializadora MT</figcaption>
         </figure>
-        <span>Whatsapp <b>8181818181</b></span>
+
         <a href="mailto:" target="_blank"
           ><img
             src="Assets/Image/email-icon.svg"
@@ -50,6 +50,10 @@
     </header>
     <main>
       <section class="carrusel slider" data-scroll-spy>
+        <button class="button" data-text="Awesome">
+          <span class="actual-text">&nbsp;Cotiza&nbsp;</span>
+          <span aria-hidden="true" class="hover-text">&nbsp;Cotiza&nbsp;</span>
+        </button>
         <article class="slider-slides">
           <div class="slider-slide active">
             <img src="Assets/Image/pet.jpg" alt="" srcset="" />
@@ -75,64 +79,19 @@
         </article>
       </section>
       <h2>Servicios</h2>
-      <section class="services">
-        <article>
-          <h3>Servicio 1</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
-        <article>
-          <h3>Servicio 2</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
-        <article>
-          <h3>Servicio 3</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
-        <article>
-          <h3>Servicio 4</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
-        <article>
-          <h3>Servicio 5</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
-        <article>
-          <h3>Servicio 6</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam harum
-            distinctio voluptas excepturi magnam maiores incidunt facilis?
-            Dignissimos, nam? Sequi quae aut earum iusto rerum dolor a at
-            impedit dicta.
-          </p>
-        </article>
+      <section id="services" class="services">
+        <template id="service-template">
+          <div class="card" id="service-template">
+            <div class="card__wrapper">
+              <div class="card___wrapper-acounts"></div>
+            </div>
+            <div class="card__title"></div>
+            <div class="card__subtitle"></div>
+          </div>
+        </template>
       </section>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
     </main>
+    <footer>This is a footer</footer>
     <script src="main.js" type="module"></script>
   </body>
 </html>
