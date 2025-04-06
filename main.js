@@ -10,13 +10,14 @@ const getData = async () => {
   console.log(data.servicios);
   data.servicios.forEach((el) => {
     $template.querySelector(".card__title").textContent = el.title;
-    $template.querySelector(".card__subtitle").textContent = el.description;
+    $template.querySelector(
+      ".card__subtitle"
+    ).innerHTML = `${el.descriptionVenta} <br> ${el.descriptionCompra}`;
     let $clone = document.importNode($template, true);
     $fragment.appendChild($clone);
   });
   $services.appendChild($fragment);
 };
-getData();
 document.addEventListener("DOMContentLoaded", (e) => getData());
 document.addEventListener("click", (e) => {
   if (e.target.closest(".button")) {
