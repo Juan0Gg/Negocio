@@ -7,6 +7,7 @@ html {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -24,6 +25,12 @@ body {
   text-align: center;
 }
 .topbar h2 {
+  will-change: transform;
+  animation-name: marquee;
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
   margin: 0;
   padding: 0.5rem 0;
   font-size: 0.8rem;
@@ -31,7 +38,14 @@ body {
   font-weight: 400;
   color: #2d2d2d;
 }
-
+@keyframes marquee {
+  from {
+    transform: translateX(calc(50vw + -50%));
+  }
+  to {
+    transform: translateX(calc(-50vw + 50%));
+  }
+}
 .topbar a {
   margin: 0 1rem;
   padding: 0; /* Eliminar padding */
@@ -104,9 +118,9 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-
+  background-color: #2d2d2d;
   text-decoration: none;
-  color: #2d2d2d;
+  /*   color: #2d2d2d; */
   font-size: 1rem;
   font-weight: 400;
 }
@@ -118,8 +132,10 @@ body {
 }
 
 .topbartwo a:hover {
-  color: #2d2d2d;
-  text-decoration: underline;
+  background-color: #080808;
+  text-shadow: 2px 2px 4px #eeff00;
+  color: #fff;
+  text-decoration: none;
 }
 .topbartwo a img {
   width: 40px;
@@ -297,10 +313,15 @@ nav ul li a:hover {
 }
 /* hover */
 .button:hover .hover-text {
+  color: transparent;
+  text-decoration: none;
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color));
 }
-
+.actual-text {
+  text-decoration: none;
+  color: transparent;
+}
 /*CARD*/
 .card {
   --main-color: #000;

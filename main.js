@@ -17,3 +17,12 @@ const getData = async () => {
   $services.appendChild($fragment);
 };
 getData();
+document.addEventListener("DOMContentLoaded", (e) => getData());
+document.addEventListener("click", (e) => {
+  if (e.target.closest(".button")) {
+    window.open(
+      "https://api.whatsapp.com/send/?phone=528110219038&text=%C2%A1Hola+Estoy+interesado%2Fa+en+sus+servicios.+%C2%BFPodr%C3%ADan+brindarme+m%C3%A1s+informaci%C3%B3n%3F&type=phone_number&app_absent=0",
+      "_blank"
+    );
+  }
+});
